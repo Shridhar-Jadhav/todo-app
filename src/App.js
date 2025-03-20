@@ -50,7 +50,7 @@ function App() {
         onKeyPress={handleKeyPress}
         placeholder="Enter a task"
       />
-      <button onClick={addTask}>Add</button>
+      <button onClick={addTask}>AAdd</button>
       <button onClick={clearTasks}>Clear All</button>
       <ul>
         {tasks.map((task, index) => (
